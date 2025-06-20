@@ -49,6 +49,18 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+
+    // AppCompat and Material Design
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.core:core:1.10.1")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+
+    // CameraX dependencies
+    implementation("androidx.camera:camera-core:1.3.1")
+    implementation("androidx.camera:camera-camera2:1.3.1")
+    implementation("androidx.camera:camera-lifecycle:1.3.1")
+    implementation("androidx.camera:camera-view:1.3.1")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
